@@ -15,7 +15,7 @@ public class JPACocheDao implements Dao<Coche>{
 	List<Coche> concesionario = new ArrayList<Coche>();
 
 	public List<Coche> getConcesionario() {
-		return concesionario;
+		return this.concesionario;
 	}
 
 	public void setConcesionario(List<Coche> concesionario) {

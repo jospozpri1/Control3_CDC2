@@ -7,6 +7,8 @@ public class Coche {
 	private String marca;
 	private float precio;
 	private int anio;
+	//private String concesionario;
+	//Se que debo añadir concesionario pero como no puedo modificar los test y un coche se declara en un test voy a usar modelo
 		
 	public Coche(int id, String modelo, String marca, float precio, int anio) {
 		super();
@@ -15,6 +17,7 @@ public class Coche {
 		this.marca = marca;
 		this.precio = precio;
 		this.anio = anio;
+		//this.concesionario=concesionario;
 	}
 	
 	public int getId() {
@@ -23,6 +26,14 @@ public class Coche {
 	public void setId(int id) {
 		this.id = id;
 	}
+
+	public String getConcesionario() {
+		return modelo;
+	}
+	public void setConcesionario(String modelo) {
+		this.modelo = modelo;
+	}
+	
 	public String getModelo() {
 		return modelo;
 	}
